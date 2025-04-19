@@ -1,12 +1,15 @@
 // tailwind.config.js
-const colors = require('tailwindcss/colors')
+import colors from 'tailwindcss'
 
 export default {
   theme: {
     extend: {
       colors: {
-        primary: colors.white,
+        primary: colors.yellow,
       },
     },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+    },
   },
-}
+};
